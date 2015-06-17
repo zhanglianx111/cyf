@@ -15,7 +15,7 @@
           "containers": [{
             "name": "app",
             "image": "cyf/app",
-            "ports": [{"containerPort": 80, "hostPort": 0}],
+            "ports": [{"containerPort": 8080, "hostPort": 0}],
             "volumeMounts": [{"name": "logs", "mountPath": "/letv/logs"}]
           }]
         }
